@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_emergency"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jariw.into.Emergency"
+    tools:showIn="@layout/app_bar_emergency">
+
+    <TextView
+        android:text="EMERGENCY RESOURCES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView8"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:drawableRight="@drawable/call_small"
+            android:background="@drawable/button_pressed"
+            android:gravity="center_vertical|start"
+            android:fontFamily="serif"
+            android:text="EMERGENCY \n 911"
+            android:onClick="call" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:text="INTO MARSHALL FRONT DESK \n (304) 696-4686"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6"
+            android:drawableRight="@drawable/call_small"
+            android:background="@drawable/button_pressed"
+            android:gravity="center_vertical|start"
+            android:fontFamily="serif"
+            android:onClick="call" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:text="MU POLICE DEPARTMENT \n (304) 696-4357"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:drawableRight="@drawable/call_small"
+            android:background="@drawable/button_pressed"
+            android:gravity="center_vertical|start"
+            android:fontFamily="serif"
+            android:onClick="call"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:text="OFFICE OF PUBLIC SAFETY \nwww.marshall.edu/mupd/"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:drawableRight="@drawable/web"
+            android:background="@drawable/button_pressed"
+            android:gravity="center_vertical|start"
+            android:fontFamily="serif"
+            android:onClick="call"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:text="EMERGENCY MANAGEMENT \nwww.marshall.edu/emergency/"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button7"
+            android:drawableRight="@drawable/web"
+            android:background="@drawable/button_pressed"
+            android:gravity="center_vertical|start"
+            android:fontFamily="serif"
+            android:onClick="call"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <Button
+            android:text="MU ALERT \nwww.marshall.edu/emergency/mualert/"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button8"
+            android:drawableRight="@drawable/web"
+            android:background="@drawable/button_pressed"
+            android:gravity="center_vertical|start"
+            android:fontFamily="serif"
+            android:onClick="call"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+</RelativeLayout>

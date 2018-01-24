@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_muonline"
+            android:icon="@drawable/s_online"
+            android:title="MuOnline" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/s_calander"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_eas"
+            android:icon="@drawable/s_contact"
+            android:title="Emergency Contact" />
+        <item
+            android:id="@+id/nav_inq"
+            android:icon="@drawable/s_feedbac"
+            android:title="Help Desk" />
+        <item
+            android:id="@+id/nav_images"
+            android:icon="@drawable/s_photo"
+            android:title="Images" />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/s_youtube"
+            android:title="Videos" />
+        <item
+            android:id="@+id/nav_handbook"
+            android:icon="@drawable/hand_small"
+            android:title="Student Handbook" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/maps_s"
+            android:title="Maps" />
+        <item
+            android:id="@+id/nav_lrc"
+            android:icon="@drawable/lrc_s"
+            android:title="LRC" />
+
+    </group>
+
+
+
+</menu>

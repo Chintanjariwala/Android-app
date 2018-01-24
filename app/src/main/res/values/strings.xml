@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">INTO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Open in Browser</string>
+    <string name="title_activity_mu_online">MUUONLINE</string>
+    <string name="title_activity_inquiry">INQUIRY</string>
+    <string name="title_activity_feedback">FEEDBACK</string>
+    <string name="title_activity_emergency">EMERGENCY</string>
+    <string name="title_activity_lrc">LRC</string>
+    <string name="title_activity_maps">MAP</string>
+    <string name="title_activity_handbook">HANDBOOK</string>
+    <string name="title_activity_map">MAP</string>
+
+    <string name="DEVELOPER_KEY">AIzaSyC9M5tAdrWEHRJ2Qs3GAqsHRjX6xVPitqo</string>
+
+    <string name="video_list_title">Title</string>
+    <string name="error_init_failure">Initialization failure: Unable to play video</string>
+
+    <string name="title_activity_video">VIDEOS</string>
+    <string name="title_activity_image">IMAGES</string>
+    <string name="title_activity_event">EVENTS</string>
+</resources>
